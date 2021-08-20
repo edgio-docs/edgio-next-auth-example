@@ -2,4 +2,5 @@
 // You should commit this file to source control.
 module.exports = {
   connector: '@layer0/next',
+  includeNodeModules: true
 }
