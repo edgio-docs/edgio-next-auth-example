@@ -1,0 +1,40 @@
+{
+  "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "name": "next-auth-example",
+  "version": "0.0.0",
+  "private": true,
+  "description": "An example project for NextAuth.js",
+  "repository": "https://github.com/nextauthjs/next-auth-example.git",
+  "bugs": {
+    "url": "https://github.com/nextauthjs/next-auth/issues"
+  },
+  "homepage": "http://next-auth-example.now.sh",
+  "main": "",
+  "author": "Iain Collins <me@iaincollins.com>",
+  "contributors": [
+    "Balázs Orbán <info@balazsorban.com>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "next": "^11.0.0",
+    "next-auth": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@layer0/cli": "^3.16.3",
+    "@layer0/core": "^3.16.3",
+    "@layer0/devtools": "^3.16.3",
+    "@layer0/next": "^3.16.3",
+    "@layer0/prefetch": "^3.16.3",
+    "@layer0/react": "^3.16.3"
+  }
+}
