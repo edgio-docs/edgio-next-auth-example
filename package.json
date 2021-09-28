@@ -30,11 +30,11 @@
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
-    "@layer0/cli": "^3.16.3",
-    "@layer0/core": "^3.16.3",
-    "@layer0/devtools": "^3.16.3",
-    "@layer0/next": "^3.16.3",
-    "@layer0/prefetch": "^3.16.3",
-    "@layer0/react": "^3.16.3"
+    "@layer0/cli": "^3.16.11",
+    "@layer0/core": "^3.16.11",
+    "@layer0/devtools": "^3.16.11",
+    "@layer0/next": "^3.16.11",
+    "@layer0/prefetch": "^3.16.11",
+    "@layer0/react": "^3.16.11"
   }
 }
