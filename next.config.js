@@ -10,6 +10,4 @@ const config = withLayer0(
   })
 )
 
-config.target = 'experimental-serverless-trace'
-
 module.exports = config
