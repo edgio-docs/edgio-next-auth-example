@@ -27,9 +27,9 @@ fn verify_jwt_signature(token:&str) {
     // generate the key by running:
     // jose newkey -s 512 -t oct -a HS512
     // Paste the output into the jwt.signingKey field in the next-auth config in pages/api/auth/[...nextauth].js
-    dotenv::from_path("../../.env").ok();
+    dotenv::from_path("../../.env.rust").ok();
 
-    let key_json = std::env::var("SIGNING_KEY").unwrap();
+    let key_json = std::env::var("SIGNING_KEY_RUST").unwrap();
     let key: Key = serde_json::from_str(&key_json).unwrap();
     let key = DecodingKey::from_base64_secret(&key.k).unwrap();
 

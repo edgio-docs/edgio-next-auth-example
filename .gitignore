@@ -106,6 +106,7 @@ dist
 .vercel
 .now
 .env.local
+.env.rust
 
 .DS_Store
 # Layer0 generated build directory

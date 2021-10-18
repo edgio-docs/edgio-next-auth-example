@@ -14,7 +14,8 @@ npm install
 
 ### 2. Configure your local environment
 
-Create a file called ".env" in the root of this repo and paste in the contents from the 1Password secure note called "next-auth-example env file" in the Moovweb/Platform Engineering vault.
+Create a file called ".env" in the root of this repo and paste in the contents from the 1Password secure note called "next-auth-example .env file" in the Moovweb/Platform Engineering vault.
+Create a file called ".env.rust" in the root of this repo and paste in the contents from the 1Password secure note called "next-auth-example .env.rust file" in the Moovweb/Platform Engineering vault.
 
 ### 3. Start the application
 
