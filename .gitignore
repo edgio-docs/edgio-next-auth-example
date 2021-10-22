@@ -111,3 +111,6 @@ dist
 .DS_Store
 # Layer0 generated build directory
 .layer0
+
+.yalc
+yalc.lock

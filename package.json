@@ -24,6 +24,7 @@
   ],
   "license": "ISC",
   "dependencies": {
+    "jsonwebtoken": "^8.5.1",
     "next": "^11.1.2",
     "next-auth": "^3.29.0",
     "node-jose-tools": "^1.6.28",
@@ -33,7 +34,7 @@
   },
   "devDependencies": {
     "@layer0/cli": "^4.0.1-next-1633713040-bfa0635ec.0",
-    "@layer0/core": "^4.0.1-next-1633713040-bfa0635ec.0",
+    "@layer0/core": "file:.yalc/@layer0/core",
     "@layer0/devtools": "^4.0.1-next-1633713040-bfa0635ec.0",
     "@layer0/next": "^4.0.1-next-1633713040-bfa0635ec.0",
     "@layer0/prefetch": "^4.0.1-next-1633713040-bfa0635ec.0",
