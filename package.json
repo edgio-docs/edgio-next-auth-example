@@ -38,6 +38,6 @@
     "@layer0/devtools": "^4.0.1-next-1633713040-bfa0635ec.0",
     "@layer0/next": "^4.0.1-next-1633713040-bfa0635ec.0",
     "@layer0/prefetch": "^4.0.1-next-1633713040-bfa0635ec.0",
-    "@layer0/react": "^4.0.1-next-1633713040-bfa0635ec.0"
+    "@layer0/react": "^4.13.8"
   }
 }
