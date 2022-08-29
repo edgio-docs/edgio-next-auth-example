@@ -9,7 +9,7 @@ This app demonstrates how Layer0 could verify a JWT token created by NextAuth fr
 ```
 git clone git@github.com:layer0-docs/next-auth-example.git
 cd next-auth-example
-npm install
+yarn install
 ```
 
 ### 2. Configure your local environment
